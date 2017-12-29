@@ -1,0 +1,55 @@
+<div class="container">
+  <table>
+    <tr>
+      <td>
+        <div *ngIf="country" class="float-left">
+
+          <br/>
+          <br/>
+          <div class="card" style="width:400px">
+            <img class="card-img-top" src="{{country.flag}}" alt="Card image">
+            <div class="card-body">
+              <h4 class="card-title">
+                <b>{{country.name}}</b>
+              </h4>
+              <div class="card-text">
+                <b>Continent: </b>{{country.continent}}
+                <br/>
+                <b>Capital: </b>{{country.capital}}
+                <br/>
+                <b>Currency: </b>{{country.currency}}
+                <br/>
+                <b>Population: </b> {{country.population}}
+                <br/>
+                <b>Area: </b>{{country.area}}
+                <br/>
+                <b>Anthem: </b>
+                <br/>
+                <br/>
+                <iframe width="200" height="150" [src]="countryAnthemLink | safe" frameborder="0" gesture="media" allow="encrypted-media"
+                  allowfullscreen="false"></iframe>
+                <br/>
+                <br/>
+                <b>Borders: </b>
+                <ul>
+                  <li *ngFor="let border of country.borders">
+                    {{border}}
+                  </li>
+                </ul>
+                <br/>
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </td>
+      <td>
+        <agm-map *ngIf="country" [latitude]="country.lat" [longitude]="country.lng">
+          <agm-marker *ngIf="country" [latitude]="country.lat" [longitude]="country.lng"></agm-marker>
+        </agm-map>
+      </td>
+    </tr>
+  </table>
+
+</div>

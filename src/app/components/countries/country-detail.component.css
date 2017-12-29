@@ -1,0 +1,10 @@
+img {
+    width: 100px;
+    height: 80px;
+    margin-right: 50px;
+}
+
+agm-map {
+    height: 500px;
+    width: 650px;
+  }

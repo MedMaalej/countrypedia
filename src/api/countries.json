@@ -1,32 +1,40 @@
-[
-  {
-    "code": "TUN",
-    "name": "TUNISIA",
-    "area": "163610",
-    "continent": "AFRICA",
-    "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Flag_of_Tunisia.svg/1024px-Flag_of_Tunisia.svg.png",
-    "anthem": "https://www.youtube.com/watch?v=cItd-J8jiKw",
-    "population": "11400000",
-    "timezone": "utc+1",
-    "currency": "DT",
-    "borders": [
-      "Algeria",
-      "libia"
-    ]
-  },
-  {
-    "code": "US",
-    "name": "UNITED STATES",
-    "area": "9833520",
-    "continent": "AMERICA",
-    "flag": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/1235px-Flag_of_the_United_States.svg.png",
-    "anthem": "https://www.youtube.com/watch?v=M1wLtAXDgqg",
-    "population": "323100000",
-    "timezone": "N/A",
-    "currency": "USD",
-    "borders": [
-      "Canada",
-      "Mexico"
-    ]
-  }
-]
+{
+  "countries": [
+    {
+      "code": "TUN",
+      "name": "TUNISIA",
+      "capital":"TUNIS",      
+      "area": "163610",
+      "continent": "AFRICA",
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Flag_of_Tunisia.svg/1024px-Flag_of_Tunisia.svg.png",
+      "anthem": "https://www.youtube.com/embed/cItd-J8jiKw",
+      "population": "11400000",
+      "timezone": "utc+1",
+      "currency": "DT",
+      "borders": [
+        "Algeria",
+        "Libia"
+      ],
+      "lat":36.81897,
+      "lng":10.16579
+    },
+    {
+      "code": "US",
+      "name": "UNITED STATES",
+      "capital":"NEW YORK",      
+      "area": "9833520",
+      "continent": "AMERICA",
+      "flag": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/1235px-Flag_of_the_United_States.svg.png",
+      "anthem": "https://www.youtube.com/embed/M1wLtAXDgqg",
+      "population": "323100000",
+      "timezone": "N/A",
+      "currency": "USD",
+      "borders": [
+        "Canada",
+        "Mexico"
+      ],
+      "lat":40.730610,
+      "lng":-73.935242
+    }
+  ]
+}
